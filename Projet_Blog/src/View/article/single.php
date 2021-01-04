@@ -15,17 +15,15 @@ include ('header.php');
 
 
 <section class="banner-section">
-<a href="index.php?c=article&a=list" class="comeBack">Retour aux articles</a>
-
-<div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
-               
-               <h1 class="text-center"><?php echo $article->getTitle() ?></h1>
-               <ul class="list-inline text-center">
-                   <li><?php echo $article->getAuthor() ?> |</li>
-                   <li><?php echo $category->getName() ?> |</li>
-                   <li><?php echo $article->getDate() ?> |</li>
-               </ul>
-           </div>
+    <a href="index.php?c=article&a=list" class="comeBack">Retour aux articles</a>
+    <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">              
+        <h1 class="text-center"><?php echo $article->getTitle() ?></h1>
+        <ul class="list-inline text-center">
+            <li><?php echo $article->getAuthor() ?> |</li>
+            <li><?php echo $category->getName() ?> |</li>
+            <li><?php echo $article->getDate() ?> |</li>
+        </ul>
+    </div>
 </section>
 
 <section class="post-content-section">

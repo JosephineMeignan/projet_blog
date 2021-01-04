@@ -17,7 +17,7 @@ include ('header.php');
 
     <form id="formAddArtcile" action="index.php?c=article&a=add-article" method="post">
         <input class="champAddArticle" type="text" name="title" placeholder="Titre">
-        <textarea class="champAddArticle" name="content" id="editor" cols="30" rows="10"></textarea> 
+        <textarea class="champAddArticle" name="content" id="" cols="30" rows="10"></textarea> 
 
         <input class="champAddArticle" type="text" name="author" placeholder="Auteur">
         <select class="champAddArticle" name="categoryId">

@@ -17,11 +17,11 @@
       <a class="navbar-brand" href="#">BloggerAdmin</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="http://ftp.josephinemgn.fr/portfolio/">Portfolio</a></li>
       <?php
         foreach ($categories as $category) { 
         ?>
-        <li>
+        <li class="navCategory">
             <a href=""><?php echo $category->getName() ?></a>
         </li>
         
