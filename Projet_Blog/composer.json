@@ -1,0 +1,19 @@
+{
+    "name": "josephine/tp-damien",
+    "description": "Test CRUD",
+    "type": "project",
+    "authors": [
+        {
+            "name": "josephine",
+            "email": "josephinemeignan@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dotenv": "^5.2"
+    },
+
+    "autoload": {
+        "psr-4": 
+        {"App\\": "src/"}
+    }
+}

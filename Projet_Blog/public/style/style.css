@@ -1,0 +1,131 @@
+.navbar{
+    margin-bottom:0;
+}
+
+.banner-section{
+    background-image:url("fond.jpg"); 
+    background-size:cover; 
+    height: 380px; 
+    left: 0; 
+    top: 0; 
+    background-position:0;
+    color: white;
+}
+.post-title-block{padding:100px 0;}
+.post-title-block h1 {color: #fff; font-size: 85px; font-weight: bold; text-transform: capitalize;}
+.post-title-block li{font-size:20px; color: #fff;}
+.image-block{float:left; width:100%; margin-bottom:10px;}
+.footer-link{float:left; width:100%; background:#222222; text-align:center; padding:30px;}
+.footer-link a{color:#A9FD00; font-size:18px; text-transform:uppercase;}
+
+body {
+    background:#222222;
+}
+
+.lienEspase {
+    margin-left: 35%;
+}
+
+/* STYLE LIST */
+
+.contain {
+    display: flex;
+    padding-top: 5em;
+}
+
+.blockOne{
+    width: 50%;
+    text-align: center;
+}
+
+.blockTwo {
+    width: 50%;
+    text-align: center;
+}
+
+.category {
+    padding-top: 1em;
+    color: white;
+    border: white solid;
+    border-radius: 30px;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.article {
+    color: white;
+    border: white solid;
+    border-radius: 30px;
+    margin: 1em;
+}
+
+.submit {
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* STYLE ADD ARTICLE  */
+
+.addArticle {
+    padding-top: 1em;
+
+}
+
+#formAddArtcile {
+    padding-top: 4em;
+    white-space:pre-wrap;
+    margin-top: -5%;
+}
+
+#editor {
+    margin-left: 2em;
+    width: 50%;
+}
+
+.champAddArticle {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.ck.ck-editor {
+    margin-left: 2em;
+    margin-right: 50em;
+}
+
+
+@font-face {
+    font-family: "New York";
+    src: url("NewYork.otf") format("otf")
+}
+
+/* SINGLE ARTICLE */
+
+.comeBack {
+    font-size: smaller;
+    color: white;
+    text-decoration: underline;
+    margin-left: .5em;
+}
+
+.comeBack:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.post-content-section {
+    text-align: justify;
+    margin-top: 5em;
+}
+
+.post-content-section {
+    color: white;
+    opacity: .7;
+}
+
+.articleClient {
+    text-align: center;
+}
+
+.text-center {
+    padding-top: 20%;
+}

@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule ^([A-Za-z0-9\-\s]*)/([A-Za-z0-9\-\s]*)/([A-Za-z0-9\-\s]*)$ /index.php?admin=$1&c=$2&a=$3 [L,QSA]
+RewriteRule ^([A-Za-z0-9\-\s]*)/([A-Za-z0-9\-\s]*)$ /index.php?c=$1&a=$2 [L,QSA]
+RewriteRule ^([A-Za-z0-9\-\s]*)$ /index.php?c=$1&a=list [L,QSA]
+RewriteRule	^$	/index.php	[L,QSA]
