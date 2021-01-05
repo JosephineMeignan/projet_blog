@@ -6,18 +6,18 @@
     <title>Add article</title>
 </head>
 <body>
+
 <?php
-
 include ('header.php');
-
 ?>
+
 <a href="index.php?c=article&a=list">Retour à l'espace admin</a>
 
 <h3 class="addArticle">Ajouter un article</h3>
 
     <form id="formAddArtcile" action="index.php?c=article&a=add-article" method="post">
         <input class="champAddArticle" type="text" name="title" placeholder="Titre">
-        <textarea class="champAddArticle" name="content" id="" cols="30" rows="10"></textarea> 
+        <textarea class="champAddArticle" name="content" id="editor" cols="30" rows="10"></textarea> 
 
         <input class="champAddArticle" type="text" name="author" placeholder="Auteur">
         <select class="champAddArticle" name="categoryId">
@@ -38,15 +38,14 @@ include ('header.php');
         <input type="submit" value="Ajouter">
     </form>
 
-    <script src="https://cdn.ckeditor.com/ckeditor5/24.0.0/classic/ckeditor.js"></script>
-    <script>
-    ClassicEditor
-        .create( document.querySelector( '#editor' ) )
-        .catch( error => {
-            console.error( error );
-        } );
+<script src="https://cdn.ckeditor.com/ckeditor5/24.0.0/classic/ckeditor.js"></script>
+<script>
+ClassicEditor
+    .create( document.querySelector( '#editor' ) )
+    .catch( error => {
+        console.error( error );
+    } );
 </script>
-
 
 </body>
 </html>

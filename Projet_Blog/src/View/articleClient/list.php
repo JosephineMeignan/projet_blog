@@ -19,7 +19,6 @@ include ('header.php');
 
 
 <div class="articleClient">
-<a href="index.php?c=article&a=add-article&g=list">Ajouter un article</a>
     <?php
     foreach ($articles as $article) { ?>
         <div class="article">
